@@ -1,4 +1,4 @@
-# Bank
+# Bank Transfers
 
 A simple Flask app that implements an intra-bank accounts transfer.
 
@@ -17,11 +17,12 @@ This project uses SQLite as its database. You need to have a `main.db` in your p
 and initial data.
 
 If you do not have this `main.db`, you can call the API `POST http://localhost:5000/init-db`
-to create all tables and write the initial data to the databa se.
+to create all tables and write the initial data to the database.
 
 ## Postman Collection
 
-You can access the Postman Collection for this project [here]().
+You can access the Postman Collection for this
+project [here](https://www.getpostman.com/collections/2dc27c97f19a9276b93e).
 
 ## Considerations
 
